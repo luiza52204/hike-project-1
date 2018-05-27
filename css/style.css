@@ -1,0 +1,102 @@
+h1{
+	color: white;
+	font-size: 36px;
+}
+@media (min-width: 576px){
+	h1{
+		font-size: 48px;
+	}
+
+}
+.section_1 ul{
+	background-color: #F7F9FC;
+	margin-top: 25px;
+	padding: 30px 55px;
+	border-radius: 8px;
+}
+header{
+	background-color: #F0F8FF;
+	padding: 140px 0 100px ;
+	background-image: url("../img/dog-header.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	color:white;
+}
+@media(min-width: 576px){
+	header{
+		padding: 200px 0;
+	}
+
+}
+.section_1{
+	background-color: white;
+
+}
+.section_1 img{
+	margin-bottom: 35px;
+}
+@media(min-width: 768px){
+	.section_1 img{
+		margin-bottom: 20px;
+	}
+}
+@media(min-width: 992px){
+	.section_1 img{
+		margin-bottom: 0;
+	}
+}
+.section{
+	padding-top: 60px;
+	padding-bottom: 40px; 
+}
+@media(min-width: 576px){
+	.section{
+		padding: 100px 0;
+	}
+}
+.section_2{
+	background-color: #FBFBFB;
+}
+.section_2 p{
+	color: #9DA2A6;
+}
+.section_2 img{
+	height: 75px;
+	width: 75px;
+	margin: 25px 0 10px;
+}
+.nav-item{
+	margin: 10px 16px;
+}
+.navbar-brand img{
+	height: 46px;
+	margin-right: 8px;
+	width: 46px;
+}
+.section_3{
+	background-color: white;
+}
+.section_3 img{
+	margin-top: 35px;
+}
+@media(min-width: 768px){
+	img{
+		margin-top: 0;
+	}
+}
+.section_4{
+	background-color: #F0F8FF;
+	background-image: url(../img/dogs-pattern.png);
+	background-repeat: repeat;
+	background-size: 192px 192px;
+}
+footer{
+	background-color: white;
+	padding: 35px 0;
+}
+.footer_img{
+	height: 22px;
+	width: 22px;
+	margin-bottom: 3px
+}
